@@ -1,5 +1,10 @@
+
 <template>
   <div>
-    <h1 class="text-2xl bg-blue-100">Hello World!</h1>
+    <SiteHeader />
+    <main class="mx-auto max-w-7xl">
+      <NuxtPage />
+    </main>
+    
   </div>
 </template>

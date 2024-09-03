@@ -6,6 +6,12 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@nuxtjs/tailwindcss',
     '@nuxt/image',
-    '@nuxt/icon'
-  ]
+    '@nuxt/icon',
+  ],
+  content: {
+    highlight: {
+      theme: 'nord',
+      preload: ['ts', 'js', 'css', 'json', 'bash', 'vue'],
+    },
+  },
 })

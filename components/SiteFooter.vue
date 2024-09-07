@@ -1,8 +1,5 @@
 <script setup>
-const links = [
-    { name: 'GitHub', href: 'https://github.com/tiagoqvilla', icon: 'entypo-social:github' },
-    { name: 'LinkedIn', href: 'https://linkedin.com/in/tiago-villa-860b82169', icon: 'entypo-social:linkedin' },
-]
+import { links } from '../constants.ts'
 </script>
 
 <template>

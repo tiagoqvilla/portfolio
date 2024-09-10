@@ -16,7 +16,10 @@
     "@nuxt/icon": "latest",
     "@nuxt/image": "latest",
     "@nuxtjs/tailwindcss": "latest",
+    "@tresjs/cientos": "^4.0.2",
+    "@tresjs/nuxt": "^3.0.7",
     "nuxt": "^3.13.0",
+    "three": "^0.168.0",
     "vue": "latest"
   },
   "devDependencies": {

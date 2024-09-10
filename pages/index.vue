@@ -1,5 +1,5 @@
 <script setup>
-import { GITHUB_LINK, LINKEDIN_LINK } from '../constants'
+import { GITHUB_LINK, LINKEDIN_LINK } from '../constants';
 const { data: posts } = await useAsyncData('latest-posts', () => queryContent('/blog').sort({ date: 1 }).limit(3).find())
 
 </script>
@@ -14,7 +14,7 @@ const { data: posts } = await useAsyncData('latest-posts', () => queryContent('/
         <div class="md:w-3/4">
             <h2 class="text-3xl font-bold mt-8">I'm Tiago Villa.</h2>
             <p class="text-lg py-2">I am a brazilian software developer currently based in the Netherlands. My
-                current tech steck includes stuff like PHP, TypeScript, React, Vue, but it is always changing and
+                current tech stack includes stuff like PHP, TypeScript, React and Vue, but it is always changing and
                 expanding.</p>
             <p class="text-lg py-2">In my spare time, I'm currently learning and dabbling with creative development and
                 3D modelling, focusing in technologies like Three.js and WebGL to create immersive and interactive

@@ -1,3 +1,12 @@
+<script setup>
+
+useHead({
+  title: "Tiago Villa",
+  meta: [{ name: 'description', content: "Tiago Villa's personal webiste" }]
+})
+
+</script>
+
 <template>
   <div class="flex flex-col min-h-screen">
     <!-- <SiteHeader /> -->

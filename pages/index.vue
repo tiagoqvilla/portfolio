@@ -17,7 +17,7 @@ const { data: posts } = await useAsyncData('latest-posts', () => queryContent('/
                 current tech stack includes stuff like PHP, TypeScript, React and Vue, but it is always changing and
                 expanding.</p>
             <p class="text-lg py-2">In my spare time, I'm currently learning and dabbling with creative development and
-                3D modelling, focusing in technologies like Three.js and WebGL to create immersive and interactive
+                3D modeling, focusing in technologies like Three.js and WebGL to create immersive and interactive
                 experiences on the web.</p>
             <p class="text-lg py-2">You can find more about me on <a class="underline decoration-sky-500"
                     :href="LINKEDIN_LINK">LinkedIn</a> and <a class="underline decoration-sky-500"
